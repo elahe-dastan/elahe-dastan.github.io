@@ -1,0 +1,63 @@
+<!--Wrapper-->
+<div id="wrapper" class="margLTop margLBottom">
+  <!--Container-->
+  <div class="container">
+    <div class="row">
+      <!--Left content-->
+      <div class="col-md-3 left-content">
+        <!--Header-->
+        <header id="header">
+          <!--Main header-->
+          <div class="main-header">
+            <!--Profile image-->
+            <figure class="img-profile">
+              <img src="assets/img/profile.jpg" alt="Elahe Dastan">
+              <figcaption class="name-profile"><span>ELAHE DASTAN</span></figcaption>
+            </figure>
+            <!--End profile image-->
+            <!--Main navigation-->
+            <nav id="main-nav" class="main-nav clearfix tabbed">
+              <ul>
+                <li class="nav-item">
+                  <a routerLink="/about" routerLinkActive="active" class="nav-link"><i class="fas fa-user"></i>About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a routerLink="/education" routerLinkActive="active" class="nav-link"><i class="fas fa-graduation-cap"></i>Education</a>
+                </li>
+                <li class="nav-item">
+                  <a routerLink="/experience" routerLinkActive="active" class="nav-link"><i class="fas fa-briefcase"></i>Work</a>
+                </li>
+                <li class="nav-item">
+                  <a routerLink="/contact" routerLinkActive="active" class="nav-link"><i class="fas fa-pen"></i>Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <!--End main navigation-->
+          </div>
+          <!--End main header-->
+          <div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
+            <ul class="social">
+              <li class="anim">
+                <a href="https://github.com/elahe-dastan" target="_blank"><i class="fab fa-github"></i></a>
+              </li>
+              <li class="anim">
+                <a href="https://instagram.com/elahe.dstn" target="_blank"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+            <p></p>
+          </div>
+        </header>
+        <!--End  header-->
+      </div>
+      <!--End left content-->
+      <!--Right content-->
+      <div class="col-md-9 right-content">
+        <router-outlet></router-outlet>
+      </div>
+      <!--End right content-->
+    </div>
+    <!--End row-->
+  </div>
+  <!--End container-->
+</div>
+<!--End wrapper-->
