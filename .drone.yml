@@ -1,0 +1,14 @@
+---
+kind: pipeline
+name: default
+type: docker
+
+steps:
+  - name: build
+    image: node
+    environment:
+      GH_TOKEN:
+        from_secret: token
+    commands:
+      - npm install
+      - npm run publish
