@@ -15,3 +15,7 @@ I am developing personal homepage in this repository.
 npm install
 npm run dev
 ```
+
+## Acknowledgement
+
+Based on [1995parham.github.io](https://github.com/1995parham/1995parham.github.io) structure.
