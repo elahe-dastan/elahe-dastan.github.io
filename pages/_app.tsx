@@ -74,7 +74,7 @@ function MainApp({ Component, pageProps }: AppProps) {
                     </a>
                   </li>
                 </ul>
-                <p>I Have a Dream</p>
+                <p></p>
               </div>
             </header>
           </div>
