@@ -1,3 +1,5 @@
+import React from "react";
+
 function Divier() {
   return (
     <div className="divider">
