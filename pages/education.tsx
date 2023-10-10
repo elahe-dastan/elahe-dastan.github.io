@@ -17,8 +17,7 @@ function Education() {
                       <div className="hgroup">
                         <h4>B.Sc. Computer Engineering</h4>
                         <h6>
-                          <i className="fas fa-calendar"></i>2017 -{" "}
-                          <span className="current">present</span>
+                          <i className="fas fa-calendar"></i>2017 - 2022
                         </h6>
                         <h6>
                           <i className="fas fa-thumbtack"></i>

@@ -14,9 +14,10 @@ function Experience() {
             </div>
             <div className="col-md-6">
               <ul style={{ listStyleType: "disc" }}>
-                <li>Backend Engineer</li>
+                <li>Backend Engineer / Data Scientist</li>
                 <li>Since 2020</li>
-                <li>Seculatory and Users Teams</li>
+                <li>Users Chapter</li>
+                <li>Map Chapter</li>
               </ul>
             </div>
           </div>
