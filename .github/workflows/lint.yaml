@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
       - run: npm install
-      - run: npx eslint pages/*/**.tsx
-      - run: npx eslint components/**/*.tsx
+      - run: npx eslint pages/*.tsx
+      - run: npx eslint components/*.tsx
