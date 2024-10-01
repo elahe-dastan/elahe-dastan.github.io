@@ -26,7 +26,7 @@ function MainApp({ Component, pageProps, router }: AppProps) {
               <div className="main-header">
                 <figure className="img-profile">
                   <Image
-                    src="/me-1.png"
+                    src="/me-1.jpg"
                     width={1024}
                     height={1024}
                     alt="Elahe Dastan"
