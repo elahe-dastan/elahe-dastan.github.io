@@ -1,4 +1,5 @@
 import Title from "../components/title";
+import Image from "next/image";
 import React from "react";
 
 function Experience() {
@@ -10,7 +11,7 @@ function Experience() {
         <div className="content">
           <div className="row">
             <div className="col-md-6">
-              <img src="/snapp.png" alt="snapp" />
+              <Image src="/snapp.png" height={1024} width={1024} alt="snapp" />
             </div>
             <div className="col-md-6">
               <ul style={{ listStyleType: "disc" }}>

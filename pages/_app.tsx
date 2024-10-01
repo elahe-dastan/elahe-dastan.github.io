@@ -5,9 +5,11 @@ import "../styles/main.css";
 
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 import { AppProps } from "next/app";
 
-function MainApp({ Component, pageProps }: AppProps) {
+function MainApp({ Component, pageProps, router }: AppProps) {
   return (
     <div id="wrapper" className="margLTop margLBottom">
       <Head>
@@ -23,7 +25,12 @@ function MainApp({ Component, pageProps }: AppProps) {
             <header id="header">
               <div className="main-header">
                 <figure className="img-profile">
-                  <img src="/me-1.jpg" alt="Elahe Dastan" />
+                  <Image
+                    src="/me-1.png"
+                    width={1024}
+                    height={1024}
+                    alt="Elahe Dastan"
+                  />
                   <figcaption className="name-profile">
                     <span>ELAHE DASTAN</span>
                   </figcaption>
@@ -31,24 +38,48 @@ function MainApp({ Component, pageProps }: AppProps) {
                 <nav id="main-nav" className="main-nav clearfix tabbed">
                   <ul>
                     <li className="nav-item">
-                      <a href="/" className="nav-link">
+                      <Link
+                        href="/"
+                        className={
+                          "nav-link " +
+                          (router.pathname === "/" ? "active" : "")
+                        }
+                      >
                         <i className="fas fa-user"></i>About Me
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="/education" className="nav-link">
+                      <Link
+                        href="/education"
+                        className={
+                          "nav-link " +
+                          (router.pathname === "/education" ? "active" : "")
+                        }
+                      >
                         <i className="fas fa-graduation-cap"></i>Education
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="/experience" className="nav-link">
+                      <Link
+                        href="/experience"
+                        className={
+                          "nav-link " +
+                          (router.pathname === "/experience" ? "active" : "")
+                        }
+                      >
                         <i className="fas fa-briefcase"></i>Work
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="/contact" className="nav-link">
+                      <Link
+                        href="/contact"
+                        className={
+                          "nav-link " +
+                          (router.pathname === "/contact" ? "active" : "")
+                        }
+                      >
                         <i className="fas fa-pen"></i>Contact
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

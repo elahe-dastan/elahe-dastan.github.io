@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build --experimental-turbo",
+    "dev": "next dev --turbo",
+    "build": "next build",
     "lint": "next lint",
     "start": "next start"
   },

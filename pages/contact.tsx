@@ -33,8 +33,8 @@ function Contact() {
                   <i className="fas fa-phone"></i> Phone
                 </b>
                 :&nbsp;{" "}
-                <a href="tel://+989205705417" style={{ color: "#777" }}>
-                  (+98) 920 570 54 17
+                <a href="tel://+989352257378" style={{ color: "#777" }}>
+                  (+98) 935 225 73 78
                 </a>
                 <Divier />
               </div>

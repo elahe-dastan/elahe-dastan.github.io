@@ -1,5 +1,6 @@
 import Title from "../components/title";
 import React from "react";
+import Image from "next/image";
 import { GetStaticProps } from "next";
 
 type HomeProps = {
@@ -32,7 +33,13 @@ export default function Home({ resumeTag }: HomeProps) {
                   say this is what I want to do in future.
                 </p>
                 <br />
-                <img src="/me-2.jpg" alt="Elahe Dastan" />
+                <Image
+                  src="/me-2.jpg"
+                  width={1024}
+                  height={1024}
+                  alt="Elahe Dastan"
+                  className="img-fluid rounded"
+                />
               </div>
             </div>
           </div>
