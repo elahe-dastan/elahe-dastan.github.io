@@ -24,7 +24,7 @@ export const profile = {
 // Resume summary (src/shared/summary.typ), split into paragraphs for the web.
 export const summary = [
 	"I am a senior ML engineer with 9+ years of experience designing and deploying scalable machine learning systems and data pipelines. I build end-to-end solutions, from data collection and ETL to model training and production deployment, and I have delivered data-driven products with measurable business impact across e-commerce, fintech, transportation, and industrial AI.",
-	"My current work centres on LLM and agent systems: retrieval, agentic pipelines, and the evaluation frameworks that gate them into production. At Caterpillar, through COMTEK International, I build the LLM evaluation framework behind the Cat In-Cab Assistant. Before that I built search and retrieval systems at Digikala, forecasting and portfolio models at Asan Pardakht, and ETA and traffic prediction at Snapp!.",
+	"My current work centres on LLM and agent systems: retrieval, agentic pipelines, and the evaluation frameworks that gate them into production. At Caterpillar, through COMTEK International, I build the LLM evaluation framework behind the in-cab and in-cloud AI assistants. Before that I built search and retrieval systems at Digikala, forecasting and portfolio models at Asan Pardakht, and ETA and traffic prediction at Snapp!.",
 	"I hold a B.Sc. in Computer Engineering and an M.Sc. in Artificial Intelligence from Amirkabir University of Technology, with published research in intelligent transportation systems. I bring a strong foundation in both software engineering and data science to every system I own.",
 ];
 
